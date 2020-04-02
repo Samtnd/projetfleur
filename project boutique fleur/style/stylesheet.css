@@ -1,0 +1,72 @@
+/* Titre principale */
+h1,h2{
+	text-align: center;
+}
+/*100% de la largeur, hauteur de la page..*/
+body{
+	margin: 0px;
+
+}
+/* MENU HEADER*/
+#navigation li {
+  	display: inline;
+  	text-align: center;
+}
+#navigation {
+  	margin: 0 ;
+  	padding: 0 ;
+  	list-style: none ;
+	text-align: center ;
+}
+/* Banière d'accueil HEADER*/
+.banner-top.text-center{
+	background-color:#81bda7;
+	color:#FFF!important;
+	font-size:20px;
+	text-align: center;
+	padding: 0;
+	margin: 0; 
+}
+
+/*DEBUT GALLERIE IMAGE*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+/*RESPONSIVE*/
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+/*FIN GALLERIE IMAGE*/
