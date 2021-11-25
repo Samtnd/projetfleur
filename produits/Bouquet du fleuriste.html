@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="../assets/css/style_adtocard.css">
+      <link type="text/css" rel="stylesheet" href="../style/formulaire1.css"/>
+      <link rel="stylesheet" href="../style/slidshow.css">
+      <title>Bouquet du fleuriste - C3A</title>
+      <link href="../style/stylesheet.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <div>
+         <img class="logo" src="../image/logo.png" id="logo">
+      </div>
+      <div  class="topnav" id="myTopnav" >
+         <a href="../index.html" class="active">&nbsp;</a>
+         <a href="../index.html">Accueil</a>
+         <a href="../bouqet.html">Catalogue</a>
+         <a href="../contact/contact.html">Contact</a>
+         <a href="../contact/Nos_services.html">Nos services</a>
+         <a href="../a_propos">À propos</a>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+         </a>
+      </div>
+      <img src="../image/effectMenu.jpg">
+      <div class="navbar">
+        <! -- class="active"-->
+         <a href="../index.html"><i class="fa fa-fw fa-home"></i>Accueil</a>
+         <a href="../bouqet.html"><i class="fa fa-fw fa-search"></i>Catalogue</a>
+         <a href="../contact/Nos_services.html"><i class="fa fa-fw fa-user"></i>Nos services</a>
+         <a href="../contact/contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+         <a href="../contact/a_propos.html"><i class="fa fa-fw fa-envelope"></i>À propos</a>
+
+         <img src="../image/effectMenu.jpg">
+      </div>
+      <div class="w3-content" style="max-width:1980px;margin-top: -15px;">
+         <img class="mySlides" src="../image/bouqet/bouqet_3_1.jpg" style="width:100%;">
+         <img class="mySlides" src="../image/bouqet/bouqet_3_2.jpg" style="width:100%;display:none">
+         <img class="mySlides" src="../image/bouqet/bouqet_3_3.jpg" style="width:100%;display:none">
+         <div class="w3-row-padding w3-section">
+            <div class="w3-col s4">
+               <img class="demo w3-opacity w3-hover-opacity-off" src="../image/bouqet/bouqet_3_1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+            </div>
+            <div class="w3-col s4">
+               <img class="demo w3-opacity w3-hover-opacity-off" src="../image/bouqet/bouqet_3_2.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+            </div>
+            <div class="w3-col s4">
+               <img class="demo w3-opacity w3-hover-opacity-off" src="../image/bouqet/bouqet_3_3.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+            </div>
+         </div>
+      </div>
+      <div id="page_vente">
+         <div style="text-align: center;">
+            <nav class="crumbs">
+               <ol>
+                  <li class="crumb"><a href="bikes">Accueil</a></li>
+                  <li class="crumb"><a href="bikes/bmx">Bouquet De Fleurs</a></li>
+                  <li class="crumb">Bouquet du fleuriste</li>
+               </ol>
+            </nav>
+            <h1 class="printsee1">Bouquet du fleuriste</h1>
+            <span style="font-size: 25px;" class="woocommerce-Price-amount amount">29,99<span class="woocommerce-Price-currencySymbol">€</span></span><br>
+            <br>
+            <label for="pet-select">Choisir une option :</label>
+            <option class="choice_bouquet" onclick="currentDiv(1)">Standard</option>
+            <option class="choice_bouquet" onclick="currentDiv(2)">Large</option>
+            <option class="choice_bouquet" onclick="currentDiv(3)">Small</option>
+            <a href="#0" style="margin: 25px;font-size: 19px;" class="cd-add-to-cart js-cd-add-to-cart" data-price="25.99">Ajouter au panier</a>
+            <div class="col-md-12 col-lg-10">
+               <div class="reinsurance-item">
+                  <img src="../image/autre/France.png" data-src="../image/autre/France.png" alt="Expédition partout en France en 24 H" class=" img_secure"><span>Expédition partout en France en 24 H</span>
+               </div>
+               <div class="reinsurance-item">
+                  <img src="../image/autre/livraison.png" data-src="../image/autre/livraison.png" alt="Commande possible 25 jours en avance !" class="img_secure"><span>Commande possible 25 jours en avance !</span>
+               </div>
+               <div class="reinsurance-item">
+                  <img src="../image/autre/particulier.png" data-src="../image/autre/particulier.png" alt="Ouvert aux particuliers et aux professionnels.png" class=" img_secure"><span>Ouvert aux particuliers et aux professionnels</span>
+               </div>
+            </div>
+            <br>
+         </div>
+      </div>
+      </p>
+      </div>
+      <div class="tab">
+         <button class="tablinks" onclick="openCity(event, 'Réserver')" id="defaultOpen">Réserver</button>
+         <button class="tablinks" onclick="openCity(event, 'Avis')">Avis</button>
+         <button class="tablinks" onclick="openCity(event, 'Vidéo')">Vidéo</button>
+      </div>
+      <div id="Réserver" class="tabcontent">
+         <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+         <div class="col-md-6 col-md-offset-1">
+            <div class="booking-form">
+               <form>
+                  <h4 class="printsee" style="text-align: center;display: none;">Commande reçu ! </h4>
+                  <br>
+                  <h4 class="printsee" style="text-align: center;display: none">Cette fiche fais office de facuture</h4>
+                  <h2 style="font-size: 45px;">Réserver votre bouquet</h2>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="form-group">
+                           <input class="form-control" type="text">
+                           <span class="form-label">Nom</span>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="form-group">
+                           <input class="form-control" type="email">
+                           <span class="form-label">Email</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="form-group">
+                           <input class="form-control" type="tel">
+                           <span class="form-label">N° de télephone</span>
+                        </div>
+                     </div>
+                     <div style="width: 100%" class="col-md-3 col-sm-6">
+                        <div class="form-group">
+                           <span class="form-label">Nombre de bouquets</span>
+                           <select class="form-control">
+                              <option>1 bouquet</option>
+                              <option>2 bouquets</option>
+                              <option>3 bouquets</option>
+                              <option>4 bouquets</option>
+                              <option>5 bouquets</option>
+                           </select>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="form-group">
+                           <input class="form-control" type="date" required>
+                           <span class="form-label">Pour le</span>
+                        </div>
+                     </div>
+                     <img class="printsee" style="display: none;margin-left: auto;margin-right: auto;width: 50%;" src="../image/autre/nasa.png">
+                  </div>
+                  <div class="form-btn">
+                     <button class="submit-btn" style="cursor: pointer; " onclick="window.print();return false;"/>Réserver</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <div id="Avis" class="tabcontent">
+         <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+         </head>
+         <h2>Témoignages de nos clients</h2>
+         <div class="container">
+            <img src="../image/svg/icon1.svg" alt="Avatar" class="img_avatar">
+            <p>
+               <span>Chris Fox.</span><img src="../image/svg/stars.svg" alt="Avatar" style="display: inline-block;margin-left: 5px;" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" style=" display: inline-block;" alt="Avatar" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" alt="Avatar" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" alt="Avatar" class="img_stars"><img src="../image/svg/stars.svg" style=" display: inline-block;" alt="Avatar" class="img_stars">
+            </p>
+            </p>
+            <p>
+               Livraison à temps, et magnifique bouquet
+            </p>
+         </div>
+         <div class="container">
+            <img src="../image/svg/icon2.svg" alt="Avatar" class="img_avatar">
+            <p>
+               <span>Natacha Bou.</span><img src="../image/svg/stars.svg" alt="Avatar" style=" display: inline-block;margin-left: 5px;" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" style=" display: inline-block;" alt="Avatar" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" alt="Avatar" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" alt="Avatar" class="img_stars"><img src="../image/svg/stars.svg" style=" display: inline-block;" alt="Avatar" class="img_stars">
+            </p>
+            </p>
+            <p>
+               Je n'étais pas à la réception des fleurs mais j'ai eu en retour belle fleur et fleur composition merci pour votre professionnaliste
+            </p>
+         </div>
+         <div class="container">
+            <img src="../image/svg/icon3.svg" alt="Avatar" class="img_avatar">
+            <p>
+               <span>Céline Rom.</span><img src="../image/svg/stars.svg" alt="Avatar" style=" display: inline-block;margin-left: 5px;" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" style=" display: inline-block;" alt="Avatar" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" alt="Avatar" class="img_stars">
+            </p>
+            </p>
+            <p>
+               J'ai commandé un bouquet à distance pour une fête familiale, qui a été livré dans les temps et était formidable selon ce qu'on m'en a dit.
+            </p>
+         </div>
+         <div class="container">
+            <img id="image3" src="../image/svg/icon4.svg" alt="Avatar" class="img_avatar">
+            <p>
+               <span>Olivier Reg.</span><img src="../image/svg/stars.svg" alt="Avatar" style=" display: inline-block;margin-left: 5px;" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" style=" display: inline-block;" alt="Avatar" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" alt="Avatar" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" alt="Avatar" class="img_stars"><img src="../image/svg/stars.svg" style=" display: inline-block;" alt="Avatar" class="img_stars">
+            </p>
+            </p>
+            <p>
+               Très bon service je suis vraiment très satisfaite 😍 merci beaucoup
+            </p>
+         </div>
+         <div class="container">
+            <img id="image2" src="../image/svg/icon5.svg" alt="Avatar" class="img_avatar">
+            <p>
+               <span>Rebecca Flex.</span><img src="../image/svg/stars.svg" alt="Avatar" style=" display: inline-block;margin-left: 5px;" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" style=" display: inline-block;" alt="Avatar" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" alt="Avatar" class="img_stars"><img style=" display: inline-block;" src="../image/svg/stars.svg" alt="Avatar" class="img_stars">
+            </p>
+            </p>
+            <p>
+               Magnifique bouquet de saison.
+            </p>
+         </div>
+      </div>
+      <div id="Vidéo" class="tabcontent">
+         <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+         <iframe width="100%" height="750px;" src="https://www.youtube.com/embed/-BsBkNF3oGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+         </iframe>
+      </div>
+      </div>
+      </head>
+      <body>
+         <h2>Vous pourriez également aimer</h2>
+         <div class="mediaprint">
+            <div class="row">
+               <div class="column">
+                  <img src="../image/bouqet/bouqet_1.jpg" alt="Snow" style="width:100%">
+               </div>
+               <div class="column">
+                  <img src="../image/bouqet/bouqet_1.jpg" alt="Forest" style="width:100%">
+               </div>
+               <div class="column">
+                  <img src="../image/bouqet/bouqet_1.jpg" alt="Mountains" style="width:100%">
+               </div>
+            </div>
+         </div>
+         <hr>
+         <br>
+         <br>
+         <div class="full_width_grid">
+            <h3 style="font-weight:300; color: #db9a64;text-align: center;" class="home-section-title feature_content_center">C3A Flowers<span style="background: #f49816;"></span></h3>
+         </div>
+         <br>
+         <br>
+         <div class="mediaprint">
+            <div style="text-align: center;" class="row">
+               <div class="column">
+                  <img src="../image/autre/made-in-france.png" alt="Snow" style="text-align: center;width: 100%;">
+                  <h2>Support Français</h2>
+                  <p>
+                     Une&nbsp;<strong>équipe dédiée au Support</strong>&nbsp;pour répondre à toutes vos questions.
+                  </p>
+               </div>
+               <div class="column">
+                  <img src="../image/autre/secure.png" alt="Forest" style="text-align: center;width: 100%;">
+                  <h2>Paiement Sécurisé</h2>
+                  <p>
+                     Nous avons choisi de confier la gestion de nos paiements en ligne à <strong>Mollie &amp; Paypal</strong>&nbsp;grâce à leurs services&nbsp;<strong>100% Sécurisés</strong>.
+                  </p>
+               </div>
+               <div class="column">
+                  <img src="../image/autre/satisfait-ou-rembourse.png" alt="Mountains" style="text-align: center;width: 100%;">
+                  <h2>Satisfait ou Remboursé</h2>
+                  <p>
+                     Nous proposons le&nbsp;<strong>Satisfait ou Remboursé pendant 14 jours</strong>&nbsp;après réception des articles !
+                  </p>
+               </div>
+            </div>
+         </div>
+         <br>
+         <div class="footer">
+            <div class="row">
+               <div class="column">
+                  <h2 class="footer_text">Informations</h2>
+                  <a target="_blank" class="a_footer" href="../contact/Mention_legal.html">
+                     <p>
+                        Mention légale
+                     </p>
+                  </a>
+                  <a target="_blank" class="a_footer" href="../contact/CGV.html">
+                     <p>
+                        CGV
+                     </p>
+                  </a>
+                  </a>
+                  <a target="_blank" class="a_footer" href="../contact/Nos_services.html">
+                     <p>
+                        Nos services
+                     </p>
+                  </a>
+               </div>
+               <div class="column">
+                  <div class="newsletter">
+                     <h2 class="footer_text">Inscription à la Newsletter*</h2>
+                     <p>
+                        Inscrivez-vous à notre newsletter et recevez votre offre de bienvenue !
+                     </p>
+                     <div class="input-group">
+                        <input required="" type="email" value="" placeholder="nom@email.com" name="contact[email]" id="Email" class="input-group-field" aria-label="nom@email.com" autocorrect="off" autocapitalize="off">
+                        <input type="hidden" name="contact[tags]" value="newsletter">
+                        <span class="input-group-btn">
+                        <input type="submit" class="btn" name="subscribe" id="subscribe" onclick="alertnewleter()" value="Je m'inscris !"></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="column">
+                  <h2 class="footer_text">Nous Contacter</h2>
+                  <a class="a_footer" href="mailto:contact@c3aflower.fr"><i class="a_footer"></i> contact@c3aflower.fr</a><br>
+                  <br>
+                  <span class="a_footer">Lun-Ven 9H00-18H00</span>
+               </div>
+            </div>
+         </div>
+         </div>
+         </div>
+         <div class="banner-top text-center">
+            <main class="cd-main container margin-top-xxl">
+               <div class="text-component text-center">
+                  <p style="background-color: #55aa33;" class="flex flex-wrap flex-center flex-gap-xxs">
+                     <a href="#0" class="cd-add-to-cart js-cd-add-to-cart" data-price="25.99">Ajouter au panier</a>
+                  </p>
+               </div>
+            </main>
+            <div class="cd-cart cd-cart--empty js-cd-cart">
+               <a href="#0" class="cd-cart__trigger text-replace">
+                  Votre panier
+                  <ul class="cd-cart__count">
+                     <li>0</li>
+                     <li>0</li>
+                  </ul>
+               </a>
+               <div class="cd-cart__content">
+                  <div class="cd-cart__layout">
+                     <header class="cd-cart__header">
+                        <h2 class="panier_text">Votre panier</h2>
+                        <span class="cd-cart__undo">Produit suprimer. <a href="#0">annuler</a></span>
+                     </header>
+                     <div class="cd-cart__body">
+                        <ul></ul>
+                     </div>
+                     <footer class="cd-cart__footer">
+                        <a href="#0" class="cd-cart__checkout">
+                           <em>
+                              Acheter - €<span>0</span>
+                              <svg class="icon icon--sm" viewbox="0 0 24 24">
+                                 <g fill="none" stroke="currentColor">
+                                    <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="3" y1="12" x2="21" y2="12"/>
+                                    <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="15,6 21,12 15,18 "/>
+                                 </g>
+                              </svg>
+                           </em>
+                        </a>
+                     </footer>
+                  </div>
+               </div>
+            </div>
+         </div>
+   </body>
+   <script src="../js/jquery.min.js"></script>
+   <script src="../js/javascript.js"></script>
+   <script src="../assets/js/util.js"></script>
+<script src="../assets/js/main.js"></script> 
+<script>document.getElementsByTagName("html")[0].className += " js";</script>
+</html>
